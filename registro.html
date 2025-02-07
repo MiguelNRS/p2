@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descubre Roma</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header >
+        <h1>Registro</h1>
+    </header>
+	
+	<section>
+        <div class="subtitulo">
+            <p>Registrate para obtener informacion exclusiva.</p>
+        </div>
+    </section>
+	
+    <nav>
+		<ul>
+            <a href="index.html"> Inicio</a>
+			<a href="lugares.html"> Lugares Turísticos</a>
+			<a href="restaurantes.html"> Lugares donde comer</a>
+		</ul>
+	</nav>
+
+    <section>
+        <div class="subtitulo">
+            <p>Formulario de Registro</p>
+        </div>
+        <form action="URL absoluta o relativa" method="get o post">
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+            </div>
+            
+            <div>
+                <label for="sexo">Sexo:</label>
+                <input type="radio" id="hombre" name="genero" value="hombre" required>
+                <label for="hombre">Hombre</label>
+                <input type="radio" id="mujer" name="genero" value="mujer">
+                <label for="mujer">Mujer</label>
+            </div>
+            <div>
+                <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+                <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+            </div>
+            
+            <div>
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+            </div>
+
+            <button type="submit">Registrarse</button>
+        </form>
+    </section>
+
