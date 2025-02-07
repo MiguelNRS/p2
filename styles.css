@@ -1,0 +1,38 @@
+header {
+    text-align: center;       
+    width: 100%;              
+    padding: 20px;             
+}
+
+body{
+    background-color:peru;
+}
+nav {
+	text-align: center;
+    font-size: 17px;
+}
+nav a {
+    margin: 20px;
+}
+
+.foto {
+    text-align: center; 
+    margin: 20px    
+}
+
+.texto {
+    margin: 70px;
+}
+
+.subtitulo{
+    margin: 70px;
+    font-size: 18px;
+}
+
+form{
+    text-align: center;
+}
+
+form div{
+    padding-bottom: 20px;
+}
